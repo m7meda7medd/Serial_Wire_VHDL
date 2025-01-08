@@ -1,0 +1,21 @@
+library ieee ;
+use ieee.std_logic_1164.all ;
+use ieee.numeric_std.all;
+
+
+entity SerialRec is 
+port (
+din,clk :in std_logic ;
+data : out std_logic_vector(6 downto 0) ;
+err,data_Valid : out std_logic 
+);
+end SerialRec ;
+architecture arch of SerialRec is 
+begin 
+process(clk,)
+begin 
+
+
+
+end process ;
+end arch ;
